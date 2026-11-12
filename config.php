@@ -3,7 +3,7 @@
 $host = 'localhost';
 $dbname = 'alocacao_veiculos';
 $usuario = 'root';
-$senha = '1234';
+$senha = 'Root123@';
 
 try {
 

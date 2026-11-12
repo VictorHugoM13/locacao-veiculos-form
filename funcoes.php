@@ -1,9 +1,5 @@
 <?php
 
-// =========================================================
-// VEÍCULOS
-// =========================================================
-
 function listarVeiculos(PDO $pdo): array
 {
     $sql = "
@@ -86,10 +82,6 @@ function alterarStatusVeiculo(
     ]);
 }
 
-
-// =========================================================
-// ALOCAÇÕES
-// =========================================================
 
 function criarAlocacao(
     PDO $pdo,
@@ -174,10 +166,6 @@ function listarHistorico(PDO $pdo): array
     return $pdo->query($sql)->fetchAll();
 }
 
-
-// =========================================================
-// UTILIDADES
-// =========================================================
 
 function redirecionar(
     string $mensagem,
